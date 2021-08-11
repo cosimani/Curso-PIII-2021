@@ -77,9 +77,9 @@ Instalación de herramientas
 Creación de entorno virtual
 ===========================
 
-.. code-block:: console 
+.. code-block:: bash 
 
-	pip install virtualenv  #
+	pip install virtualenv  # Instala de
 
 	Podemos ver todo lo que está instalado con pip en el sistema:
 
