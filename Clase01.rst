@@ -85,10 +85,8 @@ Creación de entorno virtual
 
 	pip freeze  # Muestra el listado de paquetes instalados
 
-
-	# Para crear un entorno virtual, creamos una carpeta donde se estarán todos los que creemos:
-
-	# Creamos por ejemplo la carpeta C:\Cosas\2021\PIII2021\EntornosVirtuales
+	# Para crear un entorno virtual, creamos una carpeta donde se estarán todos los entornos virtuales.
+	# Creamos por ejemplo la carpeta -> C:\Cosas\2021\PIII2021\EntornosVirtuales
 
 	cd C:\Cosas\2021\PIII2021\EntornosVirtuales  # Accedemos a la carpeta
 
