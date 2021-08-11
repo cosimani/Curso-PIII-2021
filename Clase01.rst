@@ -52,19 +52,19 @@ Metodología didáctica
 	- Recuperatorios: Se pueden recuperar ambos parciales durante la última semana de cursado. Completando la entrega de los prácticos de Martín o realizar el recuperatorio de los entregables que consiste en una parte práctica para resolver en 1 hora y una parte teórica para responder oralmente.
 
 :Examen final: 
-	- Se puede presentar un proyecto integrador con Simulink y/o Python.
+	- Se puede presentar un proyecto integrador individual con Simulink y/o Python.
 	- También se puede rendir mediante la resolución de un ejercicio con Python para resolver en 1 hora y una parte teórica para responder oralmente.
 
 
 Instalación de herramientas
 ===========================
 
-:QtCreator: 
-	- Desinstalar todas las versiones de Qt ejecutando C:\\Qt\\MaintenanceTool.exe y tildando Uninstall only 
-	- Descargar el `Instalador Online <https://www.qt.io/download-thank-you?hsLang=en>`_
-	- Ejecutar el archivo qt-unified-windows-x86-4.1.1-online.exe y utilizar una cuenta de Qt
-	- Realizar la instalación Qt 6.1 for desktop development. Se requieren 16 GBytes de disco. En caso de querer reducir, se deberá hacer una Custom installation. Toma aproximadamente 45 minutos la descarga e instalación.
-	- Asegurarse que en la configuración de QtCreator se utilice Qt 6.1.2 con MinGW 64 bits
+:Python: 
+	- Descargamos e instalamos `Python 3.8.10 <https://www.python.org/downloads/release/python-3810/>`_ 
+	- Elegir instalador para Windows 64 bits (archivo python-3.8.10-amd64.exe)
+	- Realizamos una instalación customizada (Install for all users - Create shortcuts for installed applications - Add Python to environment variables - Precompile standard library - pip - C:\Program Files\Python38) 
+	- Verificamos la instalación de Python ejecutando desde consola ``python --version``
+	- Verificamos la instalación de PIP ejecutando desde consola ``python -m pip --version``
 
 :OBS Studio: 
 	- Descargar instalador desde la `Página de descarga <https://obsproject.com/es>`_ e instalar
@@ -73,12 +73,42 @@ Instalación de herramientas
 	- Descargar instalador desde la `Página de descarga <https://www.blender.org/>`_ 
 	- Es una herramienta para modelado 3D, animación, edición de video, ...	
 
-:Regularidad: 
-	- Primer nota parcial (guía de trabajos prácticos de Martín con MATLAB y Simulink)
 
-	- Segunda nota parcial (Entregables de César con Python)
+Creación de entorno virtual
+===========================
 
-	- Proyecto final: Individual o 2 alumnos 
+.. code-block:: console 
+
+	pip install virtualenv  #
+
+	Podemos ver todo lo que está instalado con pip en el sistema:
+
+	pip freeze  # Muestra el listado de paquetes instalados
+
+	Ahora creamos el entorno virtual, el cual debe estar en un directorio particular
+	Creamos la siguiente carpeta para el proyecto mano
+
+	C:\Cosas\2021\Almeria\mano\EntornoVirtual
+
+	cd C:\Cosas\2021\Almeria\mano\EntornoVirtual
+
+	virtualenv mano
+
+	Demos ahora activar este entorno virtual
+
+	.\mano\Scripts\activate
+
+	Podemos ver que en el entorno virtual tenemos el python pero ningún paqueta instalado
+
+	pip install numpy
+	pip install matplotlib
+
+	Descativamos el entorno virtual con
+
+	deactivate
+
+	Para borrar el entorno virtual hay que borrar la carpeta donde se creó
+
 
 
 Entregable Clase 01
