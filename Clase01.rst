@@ -69,6 +69,9 @@ Instalación de herramientas
 :OBS Studio: 
 	- Descargar instalador desde la `Página de descarga <https://obsproject.com/es>`_ e instalar
 
+:Discord: 
+	- Descargar instalador desde la `Página de descarga <https://discord.com/>`_ e instalar	
+
 :Blender: 
 	- Descargar instalador desde la `Página de descarga <https://www.blender.org/>`_ 
 	- Es una herramienta para modelado 3D, animación, edición de video, ...	
