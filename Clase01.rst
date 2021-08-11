@@ -10,8 +10,8 @@ Clase 01 - PIII 2021
 :Correos: cesarosimani@gmail.com - martin.salamero@gmail.com
 
 :Temas principales:
-	- Herramientas de programación de un sistema de computadoras
 	- Programación a bajo y alto nivel para el desarrollo de aplicaciones de telecomunicaciones
+	- Herramientas de programación del hardware de un sistema de computadoras
 	- Resolución de problemas con la programación
 	- Dispositivos programables
 	- Tratamiento de señales en sistemas embebidos
