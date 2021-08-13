@@ -9,6 +9,13 @@ Clase 02 - PIII 2021
 
 **Herramienta de edición de texto y código fuente**
 
+*Herramienta de edición de texto y código fuente*
+
+Herramienta de edición de texto y código fuente
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
 - Descargar `Sublime Text <https://www.sublimetext.com>`_)
 
 
