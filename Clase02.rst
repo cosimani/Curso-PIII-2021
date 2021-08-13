@@ -25,9 +25,9 @@ Instrucciones básicas de Python
 
 	# Se pide el ingreso de un número por teclado y se muestra el número y el tipo de dato.
 	# Si no forzamos el tipo de dato en el ingreso, lo toma como string (cadena de caracteres)
-	numero = input("Dígame un número: ")
-	print("El nro ingresado es: ",numero)
-	print("El tipo del dato ingresado es ",type(numero))
+	numero = input( 'Escriba un número: ' )
+	print( 'El número ingresado es: ', numero )
+	print( 'El tipo del dato ingresado es ', type( numero ) )
 
 
 
