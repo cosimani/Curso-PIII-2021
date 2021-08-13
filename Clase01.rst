@@ -110,6 +110,9 @@ Creación de entorno virtual
 	
 	# Para borrar el entorno virtual hay que borrar la carpeta donde se creó -> C:\Cosas\2021\PIII2021\EntornosVirtuales\entorno01 
 
+	# Si desea actualizar la versión de la herramienta pip, ejecutar lo siguiente:
+	python.exe -m pip install --upgrade pip
+
 
 
 Entregable Clase 01

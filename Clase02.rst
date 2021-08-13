@@ -30,6 +30,27 @@ Instrucciones básicas de Python
 	print( 'El tipo del dato ingresado es ', type( numero ) )
 
 
+¿Cómo ejecutamos este código?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- Abrir consola con CMD
+- Entrar al entorno virtual creado en la primer clase, ejecutando lo siguiente (acomodar la ruta de ser necesario):
+
+.. code-block:: bash 
+
+	cd C:\Cosas\2021\PIII2021\EntornosVirtuales  # Accedemos a la carpeta
+
+	.\entorno01\Scripts\activate  # Activamos el entorno virtual
+
+	pip install numpy==1.19.5  # Instalamos numpy en la versión 1.19.5
+
+	# Si aparece un mensaje Warning diciendo que hay una versión nueva de pip, podemos ejecutar el comando que nos recomienda
+
+	pip freeze  # Revisamos el listado de paquetes instalados en el entorno virtual
+
+	# Recordar que para salir debemos desactivar el entorno virtual
+	deactivate
+
 
 Entregable Clase 02
 ===================
