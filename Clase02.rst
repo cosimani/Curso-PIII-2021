@@ -17,9 +17,9 @@ Herramienta de edición de texto y código fuente
 Instrucciones básicas de Python
 ===============================
 
-**Captura de Datos: input**
+**Captura de Datos:** *input*
 
-**Muestra de Datos: print**
+**Muestra de Datos:** *print*
 
 .. code-block:: python 
 
