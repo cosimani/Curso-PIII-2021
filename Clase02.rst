@@ -7,24 +7,19 @@ Clase 02 - PIII 2021
 (Fecha: 13 de agosto)
 
 
-**Herramienta de edición de texto y código fuente**
-
-*Herramienta de edición de texto y código fuente*
-
 Herramienta de edición de texto y código fuente
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-
-
-- Descargar `Sublime Text <https://www.sublimetext.com>`_)
+- Descargar `Sublime Text <https://www.sublimetext.com>`_
 
 
 
 Instrucciones básicas de Python
 ===============================
 
-*Captura de Datos: input*
-*Muestra de Datos: print*
+**Captura de Datos: input**
+
+**Muestra de Datos: print**
 
 .. code-block:: python 
 
