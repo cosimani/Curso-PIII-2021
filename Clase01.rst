@@ -84,7 +84,7 @@ Creación de entorno virtual
 
 	# Lo siguiente se ejecuta desde consola, por ejemplo en C:\Users\Usuario>
 
-	pip install virtualenv  # Instala la herramienta para generar entornos virtuales 
+	pip install virtualenv==20.4.6  # Instala la herramienta para generar entornos virtuales
 
 	pip freeze  # Muestra el listado de paquetes instalados
 
