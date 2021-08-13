@@ -224,3 +224,4 @@ Entregable Clase 02
 - Asigne el valor 7 a la variable  x .
 - Verifique e imprima la veracidad de la siguiente afirmación: ``x**2 + 5 − 2`` igual a ``( x ∗ 5 − 9 ) ∗ 2`` 
 - Verifique e imprima que no es cierto si x es -7
+
