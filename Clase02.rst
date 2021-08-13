@@ -93,8 +93,8 @@ Asignaciones, conversión de tipos, operaciones aritméticas, operadores lógico
 
 	# Utilizando notación científica
 	nror = 2e-3
-	print( nror )
-	print( "\nEl tipo de dato asignado con notación científica es ", type( nror ) )
+	print( '\n', nror )
+	print( "El tipo de dato asignado con notación científica es ", type( nror ) )
 
 	# En las versiones actuales no hace falta definir enteros long. Toma tantos bits para almacenar como haga falta
 
@@ -111,7 +111,7 @@ Asignaciones, conversión de tipos, operaciones aritméticas, operadores lógico
 	print( nro_1, type( nro_1 ) )
 	print( nro_2, type( nro_2 ) )
 	print( nro_3, type( nro_3 ) )
-	print( nro_4, type( nro_3 ) )
+	print( nro_4, type( nro_4 ) )
 	print( var, type( var ) )
 
 	# Conversión de tipos de datos con las funciones int(), float(), complex()
