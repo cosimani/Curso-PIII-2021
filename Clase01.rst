@@ -62,7 +62,7 @@ Instalación de herramientas
 :Python: 
 	- Descargamos e instalamos `Python 3.8.10 <https://www.python.org/downloads/release/python-3810/>`_ 
 	- Elegir instalador para Windows 64 bits (archivo python-3.8.10-amd64.exe)
-	- Realizamos una instalación customizada (Install for all users - Create shortcuts for installed applications - Add Python to environment variables - Precompile standard library - pip - C:\Program Files\Python38) 
+	- Realizamos una instalación customizada (Install for all users - Create shortcuts for installed applications - Add Python to environment variables - Precompile standard library - pip - C:\\Program Files\\Python38) 
 	- Verificamos la instalación de Python ejecutando desde consola ``python --version``
 	- Verificamos la instalación de PIP ejecutando desde consola ``python -m pip --version``
 

@@ -33,6 +33,8 @@ Instrucciones básicas de Python
 ¿Cómo ejecutamos este código?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+- Creamos una carpeta para almacenar nuestros códigos, por ejemplo: C:\\Cosas\\2021\\PIII2021\\Codigos\\Clase02
+- Abrimos Sublime Text y guardamos estas líneas de código en un archivo llamado ``primerCodigo.py``
 - Abrir consola con CMD
 - Entrar al entorno virtual creado en la primer clase, ejecutando lo siguiente (acomodar la ruta de ser necesario):
 
@@ -48,8 +50,12 @@ Instrucciones básicas de Python
 
 	pip freeze  # Revisamos el listado de paquetes instalados en el entorno virtual
 
+	python C:\Cosas\2021\PIII2021\Codigos\Clase02\primerCodigo.py
+
 	# Recordar que para salir debemos desactivar el entorno virtual
 	deactivate
+
+	exit  # Para cerrar la consola
 
 
 Entregable Clase 02
