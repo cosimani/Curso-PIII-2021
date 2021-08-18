@@ -18,7 +18,7 @@ IDE para Python
 Módulos y paquetes
 ==================
 
-**Módulo**: Es un archivo Python cuyas utilizadades (funciones, clases, etc.) se pueden usar desde otro archivo.
+**Módulo**: Es un archivo Python cuyas utilidades (funciones, clases, etc.) se pueden usar desde otro archivo.
 
 - Supongamos el archivo ``matematicas.py``
 
@@ -76,6 +76,51 @@ Módulos y paquetes
 
 	from operaciones.matematicas import sumar
 
+
+Biblioteca numpy
+================
+
+- Vectores, matrices, gran colección de funciones matemáticas.
+- `Documentación de numpy <https://numpy.org/doc/stable/index.html>`_ 
+
+
+**Algunos ejemplos de su uso**
+
+.. code-block:: python
+
+	import numpy as np
+
+	lista = [ 25., 8., 20., 75. ] 
+	print( type( lista ), lista )
+
+	v = np.array( lista )  # Transformo la lista en vector
+	print( '\nv =', v )  # El vector no lleva comas separando los elementos
+	print( 'tipo de v:', type( v ) )  # el tipo es numpy.ndarray
+	print( 'longitud de v:', len( v ) )
+
+	# máximo y mínimo valor de v
+	print( 'máximo de v:', v.max(), 'o', np.max( v ) )  # función de numpy.ndarray: np.max()
+	print( 'mínimo de v:', v.min(), 'o', np.min( v ) )
+
+
+.. code-block:: python
+
+	import numpy as np
+	u = np.array( [ 5, 9, 10, -1 ] )  # Transforma la lista en vector
+
+	v = np.array( [ -2, 0, 5, 4 ] )
+
+	print( "vector u =", u )
+	print( "vector v =", v )
+
+	z = u + v 
+	print( "z = u + v  ->  z =", z )
+
+	w = 2 * z
+	print( "2 * z =", w )
+
+	t = w - 3
+	print( "Restamos 3 a cada elemento del vector anterior", t )
 
 
 
