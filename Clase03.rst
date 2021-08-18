@@ -106,8 +106,8 @@ Biblioteca numpy
 .. code-block:: python
 
 	import numpy as np
-	u = np.array( [ 5, 9, 10, -1 ] )  # Transforma la lista en vector
 
+	u = np.array( [ 5, 9, 10, -1 ] )  # Transforma la lista en vector
 	v = np.array( [ -2, 0, 5, 4 ] )
 
 	print( "vector u =", u )
@@ -122,13 +122,48 @@ Biblioteca numpy
 	t = w - 3
 	print( "Restamos 3 a cada elemento del vector anterior", t )
 
+.. code-block:: python
+
+	import numpy as np
+
+	v = np.zeros( 4, dtype = np.float32 )
+	u = np.ones( 4, dtype = np.int64 )
+	w = np.full( 4, 128, dtype = np.int8 )
+	print( "v =", v,"   u =", u, "   w =", w )
+
+.. code-block:: python
+
+	import numpy as np
+
+	s = np.arange( 5, 26, 3 )
+	print( s, type( s ), type( s[ 0 ] ) )
+
+	t = s.astype( np.float32 )  # cambiamos el tipo de datos al vector s a float32
+	print( t, type( t ), type( t[ 0 ] ) )
+
+	r = t[ 0 : 3 ]
+	print( '\nLos 3 primeros elementos de t son:', r )
+	print( 'Muestra 1 =', t[ 3 : ] )
+	print( 'Muestra 2 =', t[ : ] )
+	print( 'Muestra 3 =', t[ : 5 ] )
+
+	p = t[ [ 1, 3, 5 ] ]
+	print( 'Vector con los lugares pares de t:', p )
+
+	lineal = np.linspace( 0, 1, 5 )
+	print( lineal )
 
 
 Entregable Clase 03
 ===================
 
-- Punto de partida: Entorno virtual creado y usando Sublime Text para escribir el código desde cero
-- Asigne el valor 7 a la variable  x .
-- Verifique e imprima la veracidad de la siguiente afirmación: ``x**2 + 5 − 2`` igual a ``( x ∗ 5 − 9 ) ∗ 2`` 
-- Verifique e imprima que no es cierto si x es -7
+- Punto de partida: Entorno virtual creado y usando Spyder para escribir el código desde cero
+- Considere la siguiente exponencial: ``y = np.exp( np.sin( n ) )``
+- Es una secuencia, es decir, una señal discreta, en función de ``n``.
+- Publique los primeros 5 valores positivos que toma ``y`` a partir del cero inclusive.
+- Explicar a medida que se vaya haciendo el ejercicio.
+- Entrar al siguiente `link para ver el registro de los entregables <https://docs.google.com/spreadsheets/d/1Qpp9mmUwuIUEbvrd_oqsQGuPOO9i1YPlHa_wBWTS6co/edit?usp=sharing>`_ 
+- En caso de compartir video, se realiza en Youtube (No listado) compartiendo con el docente por mensaje privado de Teams.
+- `Mesas de trabajo en Discord <https://discord.gg/TFKzMXrNCV>`_ 
+
 
