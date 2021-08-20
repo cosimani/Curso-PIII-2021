@@ -105,8 +105,11 @@ Biblioteca matplotlib
 Entregable Clase 04
 ===================
 
-- Punto de partida: Entorno virtual creado y usando Spyder para escribir el código desde cero
-- 
+- Punto de partida: Usar Spyder para escribir el código desde cero
+- Replicar exactamente la siguiente secuencia:
+
+.. figure:: images/clase04_plot.png
+
 - Explicar a medida que se vaya haciendo el ejercicio.
 - Entrar al siguiente `link para ver el registro de los entregables <https://docs.google.com/spreadsheets/d/1Qpp9mmUwuIUEbvrd_oqsQGuPOO9i1YPlHa_wBWTS6co/edit?usp=sharing>`_ 
 - En caso de compartir video, se realiza en Youtube (No listado) compartiendo con el docente por mensaje privado de Teams.
@@ -118,6 +121,7 @@ Entregable Clase 04
 - Módulo *venv*
 - `Documentación de venv <https://docs.python.org/3/library/venv.html>`_ 
 - Adaptar los siguientes comandos a lo visto en la `Clase 01 <https://github.com/cosimani/Curso-PIII-2021/blob/main/Clase01.rst>`_ 
+- Este módulo ya viene instalado con Python (quizás debemos asegurarnos de esto durante la instalación)
 
 .. code-block:: bash 
 
