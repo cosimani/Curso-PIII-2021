@@ -113,14 +113,18 @@ Entregable Clase 04
 - `Mesas de trabajo en Discord <https://discord.gg/TFKzMXrNCV>`_ 
 
 
-Alternativa para la creación de entornos virtuales
-==================================================
+*Alternativa para la creación de entornos virtuales*
 
-Para los que usamos windows y necesitemos un virtual enviroment (venv). Encontré que ya viene en la librería stantard de python una forma de hacerlo muy sencilla.
-Crear un venv en windows desde la consola, paso a paso:
-Entrar a la consola. Esto se hace apretando la tecla windows + r, después escribir cmd y aceptar. Luego escribir los comandos que se indican a continuación.
-Crear una carpeta : mkdir my_project                                   #esto crea una carpeta.
-Crear venv             : python -m venv my_project/venv        #esto crea una carpeta dentro de la carpeta donde se van a guardar los paquetes de python.
-Activar venv          : my_project\venv\scripts\activate.bat
-Desactivar venv    : deactivate
-delete env             : rmdir my_project/env /s
+- Módulo *venv*
+- `Documentación de venv <https://docs.python.org/3/library/venv.html>`_ 
+- Adaptar los siguientes comandos a lo visto en la clase 01 `Clase 01 <https://github.com/cosimani/Curso-PIII-2021/blob/main/Clase01.rst>`_ 
+
+.. code-block:: bash 
+
+	mkdir my_project  			          # Crea una carpeta para el entorno virtual
+	python -m venv my_project/venv        # Crea el entorno virtual
+	my_project\venv\scripts\activate.bat  # Activa el entorno virtual
+
+	deactivate							  # Desactiva el entorno virtual
+
+	rmdir my_project/env /s 			  # Borra el entorno virtual
