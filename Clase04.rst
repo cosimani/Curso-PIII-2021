@@ -121,10 +121,10 @@ Entregable Clase 04
 
 .. code-block:: bash 
 
-	mkdir my_project  			          # Crea una carpeta para el entorno virtual
+	mkdir my_project                      # Crea una carpeta para el entorno virtual
 	python -m venv my_project/venv        # Crea el entorno virtual
 	my_project\venv\scripts\activate.bat  # Activa el entorno virtual
 
-	deactivate							  # Desactiva el entorno virtual
+	deactivate                            # Desactiva el entorno virtual
 
-	rmdir my_project/env /s 			  # Borra el entorno virtual
+	rmdir my_project/env /s               # Borra el entorno virtual
