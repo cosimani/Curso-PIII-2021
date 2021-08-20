@@ -117,14 +117,14 @@ Entregable Clase 04
 
 - Módulo *venv*
 - `Documentación de venv <https://docs.python.org/3/library/venv.html>`_ 
-- Adaptar los siguientes comandos a lo visto en la clase 01 `Clase 01 <https://github.com/cosimani/Curso-PIII-2021/blob/main/Clase01.rst>`_ 
+- Adaptar los siguientes comandos a lo visto en la `Clase 01 <https://github.com/cosimani/Curso-PIII-2021/blob/main/Clase01.rst>`_ 
 
 .. code-block:: bash 
 
-	mkdir my_project                      # Crea una carpeta para el entorno virtual
-	python -m venv my_project/venv        # Crea el entorno virtual
-	my_project\venv\scripts\activate.bat  # Activa el entorno virtual
+	cd C:\Cosas\2021\PIII2021\EntornosVirtuales  # Accedemos a la carpeta en donde creamos los entornos virtuales
+	python -m venv entorno04                     # Creamos el entorno virtual
+	.\entorno04\scripts\activate.bat             # Activamos el entorno virtual
 
-	deactivate                            # Desactiva el entorno virtual
+	deactivate                                   # Desactivamos el entorno virtual
 
-	rmdir my_project/env /s               # Borra el entorno virtual
+	# Para borrar el entorno virtual hay que borrar la carpeta donde se creó -> C:\Cosas\2021\PIII2021\EntornosVirtuales\entorno04
