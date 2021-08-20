@@ -116,7 +116,7 @@ Entregable Clase 04
 - `Mesas de trabajo en Discord <https://discord.gg/TFKzMXrNCV>`_ 
 
 
-*Alternativa para la creación de entornos virtuales*
+**Alternativa para la creación de entornos virtuales**
 
 - Módulo *venv*
 - `Documentación de venv <https://docs.python.org/3/library/venv.html>`_ 
