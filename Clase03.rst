@@ -6,14 +6,12 @@ Clase 03 - PIII 2021
 ====================
 (Fecha: 18 de agosto)
 
-
 IDE para Python
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 - Descargar `Spyder <https://www.spyder-ide.org/>`_
 - Versión actual: 5.1.1
 - Instalar para todos los usuarios.
-
 
 Módulos y paquetes
 ==================
