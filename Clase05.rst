@@ -17,10 +17,10 @@ Cuadernos de código y herramientas
 
 
 
+`Iteraciones y decisiones (ipynb) <https://discord.gg/TFKzMXrNCV>`_ 
+================================
 
 
-Iteraciones y decisiones 
-========================
 
 **Sentencia if**
 
