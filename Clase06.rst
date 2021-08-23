@@ -13,7 +13,7 @@ Biblioteca SciPy
 - `Documentación de SciPy <https://docs.scipy.org/doc/scipy/reference/>`_ 
 
 
-`Operacioens entre señales (ipynb) <https://colab.research.google.com/drive/1rApDU5c70ApnZjSs0H-kJqpVp230Seoj?usp=sharing>`_ 
+`Operaciones entre señales (ipynb) <https://colab.research.google.com/drive/1rApDU5c70ApnZjSs0H-kJqpVp230Seoj?usp=sharing>`_ 
 =====================================
 
 .. code-block:: python
