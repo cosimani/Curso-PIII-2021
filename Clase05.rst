@@ -10,13 +10,26 @@ Clase 05 - PIII 2021
 Iteraciones y decisiones 
 ========================
 
-*Sentencia if*
+**Estructura de Decisión: *Sentencia if* **
 
-*Sentencia for*
+.. code-block:: python
 
-*Sentencia while*
+	edad = int( input( 'Ingrese edad: ' ) )
 
-*Sentencia switch*
+	if edad < 0 :
+	    print( 'Error' )
+	elif edad < 18 :
+	    print( 'Menor de edad' )
+	else :
+	    print( 'Mayor de edad' )
+
+	# Operadores para comparar: ==  !=  <  >  <=  >=
+
+**Estructuras de Repetición: Sentencia for**
+
+**Sentencia while**
+
+**Sentencia switch**
 
 
 
