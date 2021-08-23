@@ -13,7 +13,7 @@ Cuadernos de código y herramientas
 - Anaconda
 - Google Colab
 
-.. figure:: images/clase05_jupyter_ana_colab_3.png
+.. figure:: images/clase05_jupyter_ana_colab_4.png
 
 
 
