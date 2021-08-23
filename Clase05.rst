@@ -10,7 +10,7 @@ Clase 05 - PIII 2021
 Iteraciones y decisiones 
 ========================
 
-**Estructura de Decisión: *Sentencia if* **
+**Estructura de Decisión: Sentencia ``if``**
 
 .. code-block:: python
 
