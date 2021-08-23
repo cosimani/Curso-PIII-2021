@@ -138,10 +138,11 @@ Cuadernos de código y herramientas
 
 	Audio( muestras_escala_La_mayor, rate = 44100 )
 
+
 Entregable Clase 05
 ===================
 
-- Punto de partida: Cuaderno Colab llamado clase05_entregable05.ipynb
+- Punto de partida: Cuaderno Colab llamado entregable05.ipynb
 - Reproducir la escala pentatónica menor de La
 - Buscar información donde desee.
 - Deben sonar las notas que se pueden escuchar `Aquí <https://es.wikipedia.org/wiki/Archivo:PentMinor.mid>`_ 
