@@ -6,6 +6,18 @@ Clase 05 - PIII 2021
 ====================
 (Fecha: 24 de agosto)
 
+Cuadernos de código y herramientas
+==================================
+
+- Jupyter Notebook
+- Anaconda
+- Google Colab
+
+.. figure:: images/clase05_jupyter_ana_colab.png
+
+
+
+
 
 Iteraciones y decisiones 
 ========================
