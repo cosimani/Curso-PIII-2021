@@ -6,7 +6,11 @@ Clase 06 - PIII 2021
 ====================
 (Fecha: 26 de agosto)
 
-Biblioteca scipy
+Biblioteca SciPy
+================
+ 
+- Espacios vectoriales, integración, interpolación, FFT, procesamiento de señales y de imagen, ...
+- `Documentación de SciPy <https://docs.scipy.org/doc/scipy/reference/>`_ 
 
 
 `Operacioens entre señales (ipynb) <https://colab.research.google.com/drive/1rApDU5c70ApnZjSs0H-kJqpVp230Seoj?usp=sharing>`_ 
