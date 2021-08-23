@@ -17,7 +17,7 @@ Cuadernos de código y herramientas
 
 
 
-`Iteraciones y decisiones (ipynb) <https://discord.gg/TFKzMXrNCV>`_ 
+`Iteraciones y decisiones (ipynb) <https://colab.research.google.com/drive/1u-X1uIGoHCKf_QRb1jTdBZ_Ap_Z7hhYq?usp=sharing>`_ 
 ================================
 
 
