@@ -97,6 +97,47 @@ Cuadernos de código y herramientas
 
 - Aproximadamente entre 20 Hz y 20 kHz
 
+.. code-block:: python
+
+	import numpy as np
+
+	# Para reproducir audio en la notebook.
+	from IPython.display import Audio, display
+
+	sample_rate = 44100
+
+	segundos_de_audio = 2
+	n = np.linspace( 0, segundos_de_audio, sample_rate * segundos_de_audio )
+	tono = 440
+	data = np.sin( 2 * np.pi * tono * n )
+
+	data
+
+	def generador_de_tono( frecuencia, duracion, sample_rate, A = 1 ) :
+	    n = np.linspace( 0, duracion, sample_rate * duracion )
+	    return np.sin( 2 * np.pi * frecuencia * n )
+
+	la440 = generador_de_tono( 440, 1, 44100 )
+
+	Audio( data = la440, rate = 44100 )
+
+	# Todas las notas comenzando desde el 'La'
+	#   La La# Si Do Do# Re Re# Mi Fa Fa# Sol Sol# La
+	n_0 = 440
+	notas = [ 440 * 2**( n / 12 ) for n in range( 0, 13 ) ]
+
+	# Tono de cada nota
+	muestras_de_todas_las_notas = [] 
+	for frecuencia_de_nota in notas : 
+	     muestras_de_todas_las_notas.append( generador_de_tono( frecuencia_de_nota, 1, 44100 ) )
+
+	index_notas = [ 0, 2, 4, 5, 7, 9, 11, 12 ]
+	escala_La_mayor = [ muestras_de_todas_las_notas[ i ] for i in index_notas ]
+
+	muestras_escala_La_mayor = np.concatenate( escala_La_mayor )
+
+	Audio( muestras_escala_La_mayor, rate = 44100 )
+
 Entregable Clase 05
 ===================
 
