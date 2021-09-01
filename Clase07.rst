@@ -239,4 +239,4 @@ Entregable Clase 07
 - Se pide para este entregable, grabar con OBS y trabajar en equipos con los demás.
 - Entrar al siguiente `link para ver el registro de los entregables <https://docs.google.com/spreadsheets/d/1Qpp9mmUwuIUEbvrd_oqsQGuPOO9i1YPlHa_wBWTS6co/edit?usp=sharing>`_ 
 - El video se publica en Youtube (No listado) compartiendo el link con el docente por mensaje privado de Teams.
-- `Mesas de trabajo en Discord <https://discord.gg/TFKzMXrNCV>`_ 
+
