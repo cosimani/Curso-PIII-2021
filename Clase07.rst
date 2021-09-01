@@ -236,7 +236,8 @@ Entregable Clase 07
 - Utilizando la notebook de Colab grabe con el micrófono un tono de 440 Hz generado con el generador online y también grabe la correspondiente nota con el teclado virtual.
 - Modifique el código para visualizar las dos grabaciones.
 - Compare los espectros de ambas grabaciones y realice algunos comentarios de lo que observa.
-- Se pide para este entregable, grabar con OBS y trabajar en equipos con los demás.
+- Se pide para este entregable grabar con OBS el video y subirlo a Youtube.
+- Se recomienda trabajar con los demás estudiantes para llegar a la resolución más rápidamente.
 - Entrar al siguiente `link para ver el registro de los entregables <https://docs.google.com/spreadsheets/d/1Qpp9mmUwuIUEbvrd_oqsQGuPOO9i1YPlHa_wBWTS6co/edit?usp=sharing>`_ 
 - El video se publica en Youtube (No listado) compartiendo el link con el docente por mensaje privado de Teams.
 
