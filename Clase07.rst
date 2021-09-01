@@ -12,6 +12,9 @@ Clase 07 - PIII 2021
 
 .. code-block:: python
 	
+	# [Generador de tonos online](https://www.szynalski.com/tone-generator/)
+	# [Piano virtual](https://www.musicca.com/es/piano)
+
 	import numpy as np
 	import matplotlib.pyplot as plt
 	plt.style.use( 'seaborn-darkgrid' )
