@@ -242,6 +242,7 @@ Entregable Clase 08
 - Desafío: Subir un archivo de audio, publicar características como frecuencia de muestreo, duración, profundidad de bits o cuantificación, y plotear las tres gráficas con ``plot_tiempo_frecuencia_espectrograma``.
 - Alguna info que puede servir: `https://www.tensorflow.org/io/tutorials/audio <https://www.tensorflow.org/io/tutorials/audio>`_ 
 - Aquí otra info: `https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.wavfile.read.html <https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.wavfile.read.html>`_ 
+- Si desea descarga un archivo WAV, puede `extraerlo desde un video en Youtube <https://loader.to/es16/youtube-wav-converter.html>`_ .
 - Se pide para este entregable grabar con OBS el video y subirlo a Youtube.
 - Entrar al siguiente `link para ver el registro de los entregables <https://docs.google.com/spreadsheets/d/1Qpp9mmUwuIUEbvrd_oqsQGuPOO9i1YPlHa_wBWTS6co/edit?usp=sharing>`_ 
 - El video se publica en Youtube (No listado) compartiendo el link con el docente por mensaje privado de Teams.
