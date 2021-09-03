@@ -239,7 +239,7 @@ Entregable Clase 08
 ===================
 
 - Punto de partida: Cuaderno Colab llamado entregable08.ipynb
-- Desafío: Subir un archivo de audio, publicar la frecuencia de muestreo y duración, y plotear las tres gráficas con ``plot_tiempo_frecuencia_espectrograma``.
+- Desafío: Subir un archivo de audio, publicar la frecuencia de muestreo, duración y cantidad de canales, y plotear las tres gráficas con ``plot_tiempo_frecuencia_espectrograma``.
 - Alguna info que puede servir: `https://www.tensorflow.org/io/tutorials/audio <https://www.tensorflow.org/io/tutorials/audio>`_ 
 - Aquí otra info: `https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.wavfile.read.html <https://docs.scipy.org/doc/scipy/reference/generated/scipy.io.wavfile.read.html>`_ 
 - Si desea descarga un archivo WAV, puede `extraerlo desde un video en Youtube <https://loader.to/es16/youtube-wav-converter.html>`_ .
