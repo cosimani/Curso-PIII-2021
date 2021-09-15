@@ -21,6 +21,8 @@ Clase 10 - PIII 2021
 `Filtro transmisor (ipynb) <https://colab.research.google.com/drive/1TTM3s-seiJ2C7BfwcByFCVduOuGDdTeF?usp=sharing>`_ 
 ================================
 
+- Probar el siguiente ejemplo:
+
 .. code-block:: python
 
 	import numpy as np
@@ -73,7 +75,8 @@ Entregable Clase 10
 
 .. figure:: images/clase10_plot.png
 
-- Se pide para este entregable grabar con OBS el video y subirlo a Youtube (Oculto).
+- Para quienes están a distancia se pide para este entregable grabar con OBS el video y subirlo a Youtube (Oculto o No listado).
+- Para quienes están presencial se puede presentar durante la clase o luego a través de un video con OBS en Youtube.
 - Entrar al siguiente `link para ver el registro de los entregables <https://docs.google.com/spreadsheets/d/1Qpp9mmUwuIUEbvrd_oqsQGuPOO9i1YPlHa_wBWTS6co/edit?usp=sharing>`_ 
 - El link de Youtube se comparte con el docente por mensaje privado de Teams.
 - En caso de requerir más tiempo para la entrega, escribir por WhatsApp al docente antes de medianoche.
