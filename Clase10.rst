@@ -28,7 +28,7 @@ Entregable Clase 10
 - Punto de partida: Copiar el cuaderno de la clase de hoy en otro llamado entregable10.ipynb
 - Acercar el aspecto a la siguiente gráfica:
 
-.. figure:: images/clase10_parte6.png
+.. figure:: images/clase10_plot.png
 
 - Se pide para este entregable grabar con OBS el video y subirlo a Youtube (Oculto).
 - Entrar al siguiente `link para ver el registro de los entregables <https://docs.google.com/spreadsheets/d/1Qpp9mmUwuIUEbvrd_oqsQGuPOO9i1YPlHa_wBWTS6co/edit?usp=sharing>`_ 
