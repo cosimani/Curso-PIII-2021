@@ -43,9 +43,6 @@ Clase 10 - PIII 2021
 	alpha = 0.1  # Factor de roll-off
 	L = 20       # ( 2 * L * M + 1 ) es el largo del filtro sobremuestreado
 
-	lim_x_derecha_calculo = L * T / 4
-	lim_x_izquierda_calculo = -L * T / 4
-
 	t = np.arange( -L, L, 1 / M ) * T
 
 	gn = np.sinc( t / T ) * np.cos( np.pi * alpha * t / T ) / ( 1 - 4 * alpha**2 * t**2 / T**2 )
