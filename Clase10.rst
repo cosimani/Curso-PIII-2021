@@ -4,9 +4,19 @@
 
 Clase 10 - PIII 2021
 ====================
-(Fecha: 16 de septiembre)
+(Fecha: 15 de septiembre)
 
+.. figure:: images/clase10_parte1.png
 
+.. figure:: images/clase10_parte2.png
+
+.. figure:: images/clase10_parte3.png
+
+.. figure:: images/clase10_parte4.png
+
+.. figure:: images/clase10_parte5.png
+
+.. figure:: images/clase10_parte6.png
 
 
 Entregable Clase 10
