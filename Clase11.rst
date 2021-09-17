@@ -84,11 +84,11 @@ Clase 11 - PIII 2021
 .. code-block:: python
 
 	import numpy as np
-	from random import randrange
+	from random import randrange, seed
 	import datetime
 
 	segundos_desde_1970 = int( datetime.datetime.now().timestamp() )
-	np.random.seed( segundos_desde_1970 )
+	seed( segundos_desde_1970 )
 
 	simbolos_PAM2 = np.empty( 1000 )
 
