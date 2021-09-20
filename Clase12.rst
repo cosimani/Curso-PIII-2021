@@ -23,6 +23,9 @@ Entregable Clase 12
 ===================
 
 - Punto de partida: Copiar el cuaderno de la clase de hoy en otro llamado entregable12.ipynb
+- Lograr la siguiente secuencia extendida:
+
+.. figure:: images/clase12_parte3.png
 
 - Para quienes están a distancia se pide para este entregable grabar con OBS el video y subirlo a Youtube (Oculto o No listado).
 - Para quienes están presencial se puede presentar durante la clase o luego a través de un video con OBS en Youtube.
