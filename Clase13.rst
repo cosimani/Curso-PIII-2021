@@ -4,7 +4,7 @@
 
 Clase 13 - PIII 2021
 ====================
-(Fecha: 23 de septiembre)
+(Fecha: 22 de septiembre)
 
 .. figure:: images/clase13_parte1.png
 
