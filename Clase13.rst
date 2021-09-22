@@ -14,7 +14,7 @@ Clase 13 - PIII 2021
 
 .. figure:: images/clase13_parte4.png
 
-Señal transmitida y Diagrama ojo 
+Señal transmitida y Diagrama ojo (ipynb) <https://colab.research.google.com/drive/13AV86YDrFffWyxYTAzEgEBO6KNH6dras?usp=sharing>`_ 
 ================================
 
 .. figure:: images/clase13_parte5.png
