@@ -14,15 +14,22 @@ Clase 13 - PIII 2021
 
 .. figure:: images/clase13_parte4.png
 
-Diagrama ojo 
-============
+Señal transmitida y Diagrama ojo 
+================================
 
+.. figure:: images/clase13_parte5.png
+
+.. figure:: images/clase13_parte6.png
 
 
 Entregable Clase 13
 ===================
 
 - Punto de partida: Copiar el cuaderno de la clase de hoy en otro llamado entregable13.ipynb
+- Realizar el diagrama ojo para PAM4
+- Ampliar la gráfica del diagrama ojo para visualizarla más cercana a la siguiente imagen:
+
+.. figure:: images/clase13_parte7.png
 
 - Para quienes están a distancia se pide para este entregable grabar con OBS el video y subirlo a Youtube (Oculto o No listado).
 - Para quienes están presencial se puede presentar durante la clase o luego a través de un video con OBS en Youtube.
