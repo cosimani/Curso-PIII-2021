@@ -2,19 +2,31 @@
 
 .. _rcs_subversion:
 
-Clase 13 - PIII 2021
+Clase 14 - PIII 2021
 ====================
-(Fecha: 22 de septiembre)
+(Fecha: 29 de septiembre)
 
-.. figure:: images/clase13_parte1.png
+Obtener la TF de g[n]
+=====================
 
-.. figure:: images/clase13_parte2.png
+.. figure:: images/clase14_parte1.png
 
-.. figure:: images/clase13_parte3.png
+.. figure:: images/clase14_parte2.png
 
-.. figure:: images/clase13_parte4.png
+.. figure:: images/clase14_parte3.png
 
-`Señal transmitida y Diagrama ojo (ipynb) <https://colab.research.google.com/drive/13AV86YDrFffWyxYTAzEgEBO6KNH6dras?usp=sharing>`_ 
+.. figure:: images/clase14_parte4.png
+
+.. figure:: images/clase14_parte5.png
+
+.. figure:: images/clase14_parte6.png
+
+.. figure:: images/clase14_parte7.png
+
+.. figure:: images/clase14_parte8.png
+
+
+`Cálculo de la TF de g[n] (ipynb) <https://colab.research.google.com/drive/13AV86YDrFffWyxYTAzEgEBO6KNH6dras?usp=sharing>`_ 
 ================================
 
 .. figure:: images/clase13_parte5.png
@@ -22,7 +34,7 @@ Clase 13 - PIII 2021
 .. figure:: images/clase13_parte6.png
 
 
-Entregable Clase 13
+Entregable Clase 14
 ===================
 
 - Punto de partida: Copiar el cuaderno de la clase de hoy en otro llamado entregable13.ipynb
