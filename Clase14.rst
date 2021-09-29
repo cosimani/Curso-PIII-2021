@@ -28,23 +28,17 @@ Obtener la TF de g[n]
 .. figure:: images/clase14_parte8.png
 
 
-`Cálculo de la TF de g[n] (ipynb) <https://colab.research.google.com/drive/13AV86YDrFffWyxYTAzEgEBO6KNH6dras?usp=sharing>`_ 
+`Cálculo de la TF de g[n] (ipynb) <https://colab.research.google.com/drive/10sDyrNvIYlGaNo2VzqeJMYeJuP1THdYr?usp=sharing>`_ 
 ================================
 
-.. figure:: images/clase13_parte5.png
-
-.. figure:: images/clase13_parte6.png
+.. figure:: images/clase14_parte10.png
 
 
 Entregable Clase 14
 ===================
 
-- Punto de partida: Copiar el cuaderno de la clase de hoy en otro llamado entregable13.ipynb
-- Realizar el diagrama ojo para PAM4
-- Ampliar la gráfica del diagrama ojo para visualizarla más cercana a la siguiente imagen:
-
-.. figure:: images/clase13_parte7.png
-
+- Punto de partida: Cuaderno llamado entregable14.ipynb
+- Elegir una secuencia x[n] y obtener a través de este método una visualización de su TF.
 - Para quienes están a distancia se pide para este entregable grabar con OBS el video y subirlo a Youtube (Oculto o No listado).
 - Para quienes están presencial se puede presentar durante la clase o luego a través de un video con OBS en Youtube.
 - Entrar al siguiente `link para ver el registro de los entregables <https://docs.google.com/spreadsheets/d/1Qpp9mmUwuIUEbvrd_oqsQGuPOO9i1YPlHa_wBWTS6co/edit?usp=sharing>`_ 
