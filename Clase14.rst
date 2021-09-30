@@ -23,8 +23,6 @@ Obtener la TF de g[n]
 
 .. figure:: images/clase14_parte7.png
 
-.. figure:: images/clase14_parte9.png
-
 .. figure:: images/clase14_parte8.png
 
 
