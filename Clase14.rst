@@ -4,7 +4,7 @@
 
 Clase 14 - PIII 2021
 ====================
-(Fecha: 29 de septiembre)
+(Fecha: 4 de octubre)
 
 Obtener la TF de g[n]
 =====================
