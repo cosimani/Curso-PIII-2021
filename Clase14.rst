@@ -37,7 +37,7 @@ Entregable Clase 14
 
 - Punto de partida: Cuaderno llamado entregable14.ipynb
 - Elegir una secuencia f[n] y obtener a través de este método una visualización de su TF.
-- Se entrega durante la clase 16 (día 11 de octubre)
+- Se entrega durante la clase 16 (día 13 de octubre)
 - Para quienes están a distancia se pide para este entregable grabar con OBS el video y subirlo a Youtube (Oculto o No listado).
 - Para quienes están presencial se puede presentar durante la clase o luego a través de un video con OBS en Youtube.
 - Entrar al siguiente `link para ver el registro de los entregables <https://docs.google.com/spreadsheets/d/1Qpp9mmUwuIUEbvrd_oqsQGuPOO9i1YPlHa_wBWTS6co/edit?usp=sharing>`_ 
