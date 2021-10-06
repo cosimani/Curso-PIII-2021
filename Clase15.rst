@@ -70,6 +70,45 @@ Softwares
 	- Simulación, matrices, algoritmos, GUI, DSP, ...
 	- Última versión R2020a (marzo de 2020).
 
+Interrupciones
+--------------
+
+- Eventos que hacen que el dsPIC deje de realizar lo que está haciendo y pase a ejecutar otra tarea.
+- Las causas pueden ser diferentes (Interrupciones externas, Timers, ADC, UART, etc.).
+- 7 niveles de prioridad (1 a 7 a través de los registros IPCx). Con 0 se desactiva la interrupción.
+- Permite que una interrupción de mayor prioridad invalide una de menor prioridad que esté en progreso.
+- Existe una tabla de vectores de interrupción (IVT) que indica dónde escribir la función que atenderá dicha interrución.
+- También hay una tabla alternativa (AIVT) que se usa en situaciones de depuración o pruebas sin necesidad de reprogramar las interrupciones. También puede que un programa esté dividido en aplicaciones: una aplicación en el bootloader y otra aplicación principal. Entonces, una de ellas usa el AIVT y la otra el IVT.
+- Cuando una interrupción es atendida, el PC (Program Counter) se carga con la dirección que indica la tabla de vector de interrupción (IVT)
+
+.. figure:: images/clase15_ivt.png
+   :target: http://ww1.microchip.com/downloads/en/DeviceDoc/70046E.pdf
+   
+.. figure:: images/clase15_ivt_dspic33F.png
+   :target: http://ww1.microchip.com/downloads/en/DeviceDoc/70214C.pdf
+
+
+Registros para configuración
+----------------------------
+	
+- IFS0<15:0>, IFS1<15:0>, IFS2<15:0>
+	- Banderas de solicitud de interrupción. (el software debe borrarlo - hay que hacerlo sino sigue levantando la interrupción).
+
+- IEC0<15:0>, IEC1<15:0>, IEC2<15:0>
+	- Bits de control de habilitación de interrupción.
+
+- IPC0<15:0>... IPC10<7:0>
+	- Prioridades
+
+- INTCON1<15:0>, INTCON2<15:0>
+	- Control de interrupciones.
+		- INTCON1 contiene el control y los indicadores de estado. 
+		- INTCON2 controla la señal de petición de interrupción externa y el uso de la tabla AIVT.
+
+.. figure:: images/clase15_registro_interrupciones.png
+   :target: http://ww1.microchip.com/downloads/en/devicedoc/70138c.pdf
+
+
 Entregable Clase 15
 ===================
 
