@@ -109,6 +109,14 @@ Registros para configuración
    :target: http://ww1.microchip.com/downloads/en/devicedoc/70138c.pdf
 
 
+
+.. figure:: images/clase15_manejo_osciladores.png
+
+.. figure:: images/clase15_osciladores.png
+   :target: http://ww1.microchip.com/downloads/en/DeviceDoc/70046E.pdf
+
+.. figure:: images/clase15_calculo_fcy.png
+
 Entregable Clase 15
 ===================
 
