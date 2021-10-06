@@ -117,6 +117,59 @@ Registros para configuración
 
 .. figure:: images/clase15_calculo_fcy.png
 
+
+
+**Pinout de algunos dsPIC**
+
+.. figure:: images/clase15_dspic33fj32mc202.png
+   :target: http://ww1.microchip.com/downloads/en/DeviceDoc/70283K.pdf
+
+.. figure:: images/clase15_dspic30f4013.png
+   :target: http://ww1.microchip.com/downloads/en/devicedoc/70138c.pdf
+
+
+.. figure:: images/clase15_manejo_timers.png
+
+.. figure:: images/clase15_map_timer23.png
+   :target: http://ww1.microchip.com/downloads/en/devicedoc/70138c.pdf
+
+.. figure:: images/clase15_ejemplo.png
+
+.. code-block::
+
+	void detectarIntT1() org 0x001a  {
+	    LATBbits.LATB0 = !LATBbits.LATB0;
+	    IFS0bits.T1IF = 0;  // Borramos la bandera de interrupción T1
+	}
+
+	void main()  {
+	    TRISBbits.TRISB0 = 0;
+	    LATBbits.LATB0 = 0;
+
+	    // Modo de operación Timer1
+	    T1CON = 0x0000;
+
+	    // Modo operación Timer1: reloj interno, escala 1:1, empieza cuenta en 0
+	    TMR1 = 0;
+
+	    // Cuenta 500 ciclos
+	    PR1 = 500;
+
+	    // Interrupciones Timer1, borra Bandera de interrupción
+	    IFS0bits.T1IF = 0;
+
+	    // Habilita interrupción
+	    IEC0bits.T1IE = 1;
+
+	    // Arranca Timer1
+	    T1CONbits.TON = 1;
+
+	    while( 1 )
+	       asm nop;
+	}
+
+
+
 Entregable Clase 15
 ===================
 
