@@ -119,7 +119,8 @@ Registros para configuración
 
 
 
-**Pinout de algunos dsPIC**
+Pinout de algunos dsPIC
+-----------------------
 
 .. figure:: images/clase15_dspic33fj32mc202.png
    :target: http://ww1.microchip.com/downloads/en/DeviceDoc/70283K.pdf
