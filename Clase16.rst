@@ -9,7 +9,7 @@ Clase 16 - PIII 2021
 Exponential Moving Average Filter
 =================================
 
-<img src="https://render.githubusercontent.com/render/math?math=e^{i %2B\pi} =x%2B1">
+![formula](https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1)
 
 
 Entregable Clase 16
