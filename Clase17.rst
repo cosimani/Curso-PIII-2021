@@ -16,6 +16,31 @@ Creación de GUI
 - Manejo de eventos
 - Gráficos y reproducción
 
+**Información**
+
+- Ir a https://www.qt.io/download para descargar el QtCreator. No hace falta más que el QtCreator que tiene el QtDesigner que nos genera el .ui
+- Ver aquí cómo se utiliza el .ui para generar la interfaz. https://www.pythonguis.com/tutorials/pyside-first-steps-qt-designer/
+
+
+.. code-block:: bash 
+
+	cd C:\Cosas\2021\EntornosVirtuales
+	mkdir PIII_con_GUI
+	cd PIII_con_GUI
+
+	virtualenv entorno_gui_piii
+	.\entorno_gui_piii\Scripts\activate
+
+	pip install numpy==1.19.5
+	pip install shiboken6==6.0.0
+	pip install PySide6==6.0.0 
+	pip install matplotlib==3.3.4 
+	pip install scipy==1.7.1
+	pip install sounddevice==0.4.2
+
+	python C:\Cosas\2021\PIII2021\Codigos\Clase17\ventana.py
+
+
 
 Entregable Clase 17
 ===================
