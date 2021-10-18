@@ -22,7 +22,7 @@ Entregable Clase 17
 
 - Punto de partida: Programa realizado por el docente.
 - Agregar las funciones de generación de tonos y graficar la suma de varios tonos y reproducirlos.
-- Reestructurar el layout de la nterfaz.
+- Reestructurar el layout de la interfaz.
 - Entrar al siguiente `link para ver el registro de los entregables <https://docs.google.com/spreadsheets/d/1Qpp9mmUwuIUEbvrd_oqsQGuPOO9i1YPlHa_wBWTS6co/edit?usp=sharing>`_ 
 - El link de Youtube se comparte con el docente por mensaje privado de Teams.
 
