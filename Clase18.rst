@@ -7,6 +7,9 @@ Clase 18 - PIII 2021
 (Fecha: 20 de octubre)
 
 
+- `Aquí un instructivo para creación de GUI <https://github.com/cosimani/Curso-PIII-2021/blob/main/images/Instructivo_GUI.pdf>`_ 
+
+
 .. figure:: images/clase18_parte1.png
 
 
