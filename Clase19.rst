@@ -7,6 +7,14 @@ Clase 19 - PIII 2021
 (Fecha: 25 de octubre)
 
 
+Ejemplo para grabar y repoducir
+===============================
+
+.. figure:: images/clase19_parte1.png
+
+
+ventana.py
+----------
 
 .. code-block:: python
 
@@ -70,21 +78,23 @@ Clase 19 - PIII 2021
 	            self.close()
 
 
-# Función main que se ejecuta al iniciar la aplicación
-if __name__ == '__main__':
+	# Función main que se ejecuta al iniciar la aplicación
+	if __name__ == '__main__':
 
-    # Este objeto representa a la aplicación
-    app = QApplication( sys.argv )
+	    # Este objeto representa a la aplicación
+	    app = QApplication( sys.argv )
 
-    os.chdir( os.path.dirname( os.path.abspath( __file__ ) ) )
+	    os.chdir( os.path.dirname( os.path.abspath( __file__ ) ) )
 
-    # Creamos y visualizamos el objeto Ventana que contiene la interfaz creada en QtDesigner
-    ventana = Ventana()
-    ventana.show()
+	    # Creamos y visualizamos el objeto Ventana que contiene la interfaz creada en QtDesigner
+	    ventana = Ventana()
+	    ventana.show()
 
-    sys.exit( app.exec_() )
+	    sys.exit( app.exec_() )
 
 
+panel_clase19.ui
+----------------
 
 .. code-block:: python
 
