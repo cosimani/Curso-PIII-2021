@@ -16,6 +16,10 @@ Aplicar filtros digitales
 
 .. figure:: images/clase20_gui.png
 
+- `Aquí el archivo .ui <https://github.com/cosimani/Curso-PIII-2021/blob/main/images/panel_clase20.ui>`_  
+
+
+
 
 ventana.py
 ----------
