@@ -73,7 +73,8 @@ ventana.py
 	        duracion = 3
 	        frecuencia_muestreo = 44100
 	          
-	        self.grabacion = sd.rec( int( duracion * frecuencia_muestreo ), samplerate = frecuencia_muestreo, channels = 1, blocking = True ) 
+	        self.grabacion = sd.rec( int( duracion * frecuencia_muestreo ), 
+	        						 samplerate = frecuencia_muestreo, channels = 1, blocking = True ) 
 
 	        print( type( self.grabacion ) )
 	        print( self.grabacion, self.grabacion.shape )
