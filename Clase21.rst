@@ -120,7 +120,8 @@ ventana.py
 	                print( "butter - lowpass"  )
 	                
 	            elif self.gui.checkBoxBandPass.checkState() == Qt.Checked :
-	                b, a = signal.butter( 10, [ int( self.gui.leBandPass_inferior.text() ), int( self.gui.leBandPass_superior.text() ) ], 
+	                b, a = signal.butter( 10, [ int( self.gui.leBandPass_inferior.text() ), 
+	                							int( self.gui.leBandPass_superior.text() ) ], 
 	                                      btype = 'bandpass', fs = self.samplerate )
 	                self.xn_filtrada = signal.filtfilt( b, a, self.xn )
 	                print( "butter - bandpass"  )
