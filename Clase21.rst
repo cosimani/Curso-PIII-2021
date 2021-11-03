@@ -139,7 +139,8 @@ ventana.py
 	                print( "cheby1 - lowpass"  )
 	                
 	            elif self.gui.checkBoxBandPass.checkState() == Qt.Checked :
-	                b, a = signal.cheby1( 10, 1, [ int( self.gui.leBandPass_inferior.text() ), int( self.gui.leBandPass_superior.text() ) ], 
+	                b, a = signal.cheby1( 10, 1, [ int( self.gui.leBandPass_inferior.text() ), 
+	                							   int( self.gui.leBandPass_superior.text() ) ], 
 	                                      btype = 'bandpass', fs = self.samplerate )
 	                self.xn_filtrada = signal.filtfilt( b, a, self.xn )
 	                print( "cheby1 - bandpass"  )
