@@ -204,7 +204,7 @@ Preparando el proyecto final
 Entregable Clase 21
 ===================
 
-- Punto de partida:
+- Punto de partida: Implementar `cheby2 <https://docs.scipy.org/doc/scipy/reference/generated/scipy.signal.cheby2.html>`_  
 - Para quienes están a distancia se pide para este entregable grabar con OBS el video y subirlo a Youtube (Oculto o No listado).
 - Para quienes están presencial se puede presentar durante la clase o luego a través de un video con OBS en Youtube.
 - Entrar al siguiente `link para ver el registro de los entregables <https://docs.google.com/spreadsheets/d/1Qpp9mmUwuIUEbvrd_oqsQGuPOO9i1YPlHa_wBWTS6co/edit?usp=sharing>`_ 
